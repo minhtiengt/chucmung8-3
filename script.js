@@ -9,6 +9,8 @@ parcelRequire = (function (modules, cache, entry, globalName) {
     // Save the require from previous bundle to this closure if any
     var previousRequire = typeof parcelRequire === 'function' && parcelRequire;
     var nodeRequire = typeof require === 'function' && require;
+    var bgMusicURL = 'https://soundcloud.com/vu-tien-199291463/nhacnen/s-oqgRQ3GydLC?si=38015b1661b24a0b99f2d29aefe3094f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing';
+    var bgMusicControls = true;
   
     function newRequire(name, jumped) {
       if (!cache[name]) {
