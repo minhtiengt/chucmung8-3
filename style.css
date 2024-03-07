@@ -24,7 +24,10 @@ main {
 }
 
 body {
+	{
 	margin: 0;
+	/* background-image: url("./img/img8.jpg"); */
+	/* background-position: center; */
 	--color-text: #d05400;
     --color-bg: #0c0c0c;
     --color-link: #6b5537;
@@ -39,6 +42,19 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+
+body::after {
+	content: "";
+	background: url("./img/img8.jpg");
+	background-position: center;
+	opacity: 0.4;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+  }
 
 .demo-2 {
 	--color-text: #000000;
