@@ -42,9 +42,12 @@ supportsCssVars() || alert("Please view this demo in a modern browser that suppo
 					<span class="content__title-sub">Chúc công chúa của anh 8/3 mãi xinh đẹp rạng ngời ❤️️</span>
 				</h2>
 			</div>
-			<audio autoplay loop  id="playAudio">
-      			  <source src="nhacnen.mp3">
-   		        </audio>
+			<div id="music-container"></div>
+     			<div id="canva">
+      			<canvas id="canvas"></canvas>
+   			</div>
+   			 <audio src="nhacnen.mp3" autoplay controls hidden></audio>
+   		         <script src="script.js"></script>
 		</main>
         <svg class="cursor" width="80" height="80" viewBox="0 0 80 80">
 			<circle class="cursor__inner" cx="40" cy="40" r="20"></circle>
